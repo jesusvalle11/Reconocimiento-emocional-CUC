@@ -3,10 +3,10 @@ import os
 import imutils
 
 # Cambia según la emoción que quieras capturar
-emotionName = 'Enojo'
+#emotionName = 'Enojo'
 #emotionName = 'Felicidad'
 #emotionName = 'Sorpresa'
-#emotionName = 'Tristeza'
+emotionName = 'Tristeza'
 
 dataPath = r'C:/Users/jesus/Desktop/Reconocimiento Emociones/Data'
 emotionPath = dataPath + '/' + emotionName

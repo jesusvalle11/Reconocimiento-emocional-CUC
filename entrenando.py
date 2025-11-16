@@ -24,8 +24,8 @@ for nameDir in emotionsList:
     label = label + 1
 
 #face_recognizer = cv2.face.EigenFaceRecognizer_create()
-face_recognizer = cv2.face.FisherFaceRecognizer_create()
-#face_recognizer = cv2.face.LBPHFaceRecognizer_create()
+#face_recognizer = cv2.face.FisherFaceRecognizer_create()
+face_recognizer = cv2.face.LBPHFaceRecognizer_create()
 
 print("Entrenando...")
 face_recognizer.train(facesData, np.array(labels))
